@@ -15,7 +15,8 @@
   "scripts": {
     "test": "jest",
     "lint": "eslint ./src",
-    "build": "tsc"
+    "build": "tsc",
+    "prepublish": "tsc"
   },
   "files": [
     "src",
